@@ -1,0 +1,35 @@
+body {
+  margin: 0%;
+  overflow: hidden;
+  background: rgb(30, 30, 30);
+  font-family: 'stan';
+}
+
+canvas {
+  background: rgb(0, 0, 8);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'stan';
+  src: url('stan.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#informer {
+  top: 10px;
+  right: 0;
+  left: 10px;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  position: absolute;
+  z-index: 2;
+}
